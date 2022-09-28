@@ -1,0 +1,52 @@
+@import "variable.scss";
+@import "base.scss";
+
+
+.today {
+  border-bottom : 1px solid $gray;
+
+  h3 {
+    text-align     : right;
+    text-transform : uppercase;
+  }
+}
+
+.short-name {
+  background : #E6E6E6;
+  padding    : 4px 0;
+  border-top : 2px solid $borderGray;
+
+  .right {
+    font-size  : 24px;
+    .border-left {
+      gap        : 8px;
+      background : #fff;
+      padding    : 16px 0 16px 0;
+      border-left  : 8px solid $borderGreen;
+      padding-left : 16px !important;
+    }
+
+  }
+}
+.large-text{
+  font-size: 48px;
+  padding-left: 48px;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.am-section {
+  border-top : 2px solid #ED1E79;
+  background : #FEF6F8;
+  .large-text{
+    color: #ED1E79
+  }
+}
+
+.pm-section {
+  border-top : 2px solid #3FA9F5;
+  background : #EEFEFE;
+  .large-text{
+    color: #3FA9F5
+  }
+}
